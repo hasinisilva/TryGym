@@ -38,6 +38,14 @@ body a:focus {
     outline: none;
 	text-decoration:none;
 }
+
+.member_form_container {
+
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*-- banner --*/ 
 .w3ls-banner{
 	position: relative;
@@ -606,14 +614,14 @@ p.sub-text.one {
 
 #particles-js1{
   width: 100%;
-  background-image: url('');
+
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 #particles-js2{
   width: 100%;
-  background-image: url('');
+
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;

@@ -55,8 +55,8 @@
             -->
 
             <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
-            <p style="color: white">Login facility is available for members who are already registered at the gym only.</p>
-            <p style="color: red"> Online registration is not available.</p>
+            <p style="color: white">** Only for registered members</p>
+            <p style="color: red"> ** Online registration is not available.</p>
 
         </div>
     </form>

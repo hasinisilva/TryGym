@@ -30,6 +30,26 @@ public class UserController {
     @Autowired
     private UserValidator userValidator;
 
+
+    @RequestMapping(value = "/view_details", method = RequestMethod.GET)
+    public String view_details(Model model) {
+        //model.addAttribute("userForm", new User());
+
+        return "view_details";
+    }
+    @RequestMapping(value = "/view_account", method = RequestMethod.GET)
+    public String view_account(Model model) {
+        //model.addAttribute("userForm", new User());
+
+        return "view_account";
+    }
+    @RequestMapping(value = "/reg_success", method = RequestMethod.GET)
+    public String reg_success(Model model) {
+        //model.addAttribute("userForm", new User());
+
+        return "reg_success";
+    }
+
     @RequestMapping(value = "/chest_workout", method = RequestMethod.GET)
     public String chest_workout(Model model) {
         //model.addAttribute("userForm", new User());
@@ -99,7 +119,7 @@ public class UserController {
             model.addAttribute("registered", "Member registered successfully!");
 
 
-        return "redirect:/member";
+        return "redirect:/reg_success";
     }
 
     @RequestMapping(value = "/staff", method = RequestMethod.GET)

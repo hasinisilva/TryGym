@@ -1,9 +1,10 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 <head>
-    <title>Admin view </title>
+    <title>Admin view-Account Details</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Dance whirl Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -15,6 +16,7 @@
     <link href="${pageContext.request.contextPath}/resources/css/style2.css" type="text/css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main-gallery.css" type="text/css" media="screen" />  <!-- flexslider-CSS -->
     <link href="${pageContext.request.contextPath}/resources/css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->
+
     <!-- //Custom Theme files -->
     <!-- web-fonts -->
     <link href="http://fonts.googleapis.com/css?family=Arapey:400,400i" rel="stylesheet">
@@ -33,7 +35,7 @@
                     <div class="w3layouts-banner-top">
                         <div class="container">
                             <div class="agileits-banner-info">
-                                <h3><span>Welcome </span> </h3>
+                                <h3><span>Account Details</span> </h3>
                                 <p>Exclusive right of TryGym</p>
                             </div>
                         </div>
@@ -43,7 +45,7 @@
                     <div class="w3layouts-banner-top w3layouts-banner-top1">
                         <div class="container">
                             <div class="agileits-banner-info">
-                                <h3><span>Welcome </span> </h3>
+                                <h3><span>Account Details</span> </h3>
                                 <p>Exclusive right of TryGym</p>
                             </div>
                         </div>
@@ -53,7 +55,7 @@
                     <div class="w3layouts-banner-top w3layouts-banner-top2">
                         <div class="container">
                             <div class="agileits-banner-info">
-                                <h3><span>Welcome </span> </h3>
+                                <h3><span>Account Details</span> </h3>
                                 <p>Exclusive right of TryGym</p>
                             </div>
 
@@ -109,7 +111,14 @@
 </div>
 <!-- //banner -->
 
+<div class="member_form_container">
 
+
+
+</div>
+<!-- /container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="${contextPath}/resources/js/bootstrap.min.js"></script>
 
 
 <!-- footer -->
